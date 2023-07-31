@@ -11,7 +11,7 @@ size_t print_listint(const listint_t *k)
 
 	while (k)
 	{
-		printf("%d\n", k->n);
+		printf("%d\n", k->e);
 		namba++;
 		k = k->next;
 	}
